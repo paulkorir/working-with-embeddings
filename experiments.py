@@ -26,7 +26,8 @@ class Passage(str):
 
 
 def main():
-    query = "How many people live in Berlin?"
+    # query = "How many people live in Berlin?"
+    query = input("query: ")
     passages = [
         Passage("Berlin had a population of 3,520,031 registered inhabitants in an area of 891.82 square kilometers.",
                 document="Berlin Population"),
